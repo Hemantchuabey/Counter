@@ -1,0 +1,41 @@
+/* font-family: 'Karla', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    letter-spacing: 1.5px;
+    font-family: 'Karla', sans-serif;
+}
+body{
+    background-color: #dce2e2;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    margin-top: 30vh;
+}
+.head{
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.counter{
+    font-size: 8rem;
+}
+.btn{
+    font-size: 0.92rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 1.2rem;
+    background: transparent;
+    font-weight: bold;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+.btn:hover{
+    background: black;
+    color: whitesmoke;
+
+}
